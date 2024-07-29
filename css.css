@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #010101, #00a3af, #00a3af); 
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+
+.logo {
+    height: 40px;
+
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('images/bg7.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    color: white;
+    position: relative;
+    height: 100vh;
+
+    
+}
+
+.overlay {
+   
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 18px;
+    color: #64a6ae
+}
+
+#overlayh1 {
+     color: #000000
+
+}
